@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <text>原值：空间啊不过快了123485452</text>
+  <view class="line"></view>
+  <text>ECB/128/KEY:5de7e29919fad4d5</text>
+  <view class="line"></view>
+  <text>aes加密后16进制：</text>
+  <text style=" word-break: break-all">{{show_aes_encode}}</text>
+  <text>\n</text>
+  <text>aes加密后base64：</text>
+  <text style=" word-break: break-all">{{show_aes_encodebase64}}</text>
+  
+  <text>aes解密后：</text>
+  <text>{{show_aes_decode}}</text>
+  <view class="line"></view>
+</view>
